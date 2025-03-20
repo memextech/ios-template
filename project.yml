@@ -1,0 +1,35 @@
+name: SimpleIOSApp
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: 15.0
+targets:
+  SimpleIOSApp:
+    type: application
+    platform: iOS
+    sources:
+      - path: SimpleIOSApp
+    settings:
+      base:
+        INFOPLIST_FILE: SimpleIOSApp/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.SimpleIOSApp
+    info:
+      path: SimpleIOSApp/Info.plist
+      properties:
+        CFBundleDisplayName: Simple iOS App
+        UILaunchStoryboardName: LaunchScreen
+        UIMainStoryboardFile: Main
+        LSRequiresIPhoneOS: true
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+          UISceneConfigurations:
+            UIWindowSceneSessionRoleApplication:
+              - UISceneConfigurationName: Default Configuration
+                UISceneDelegateClassName: $(PRODUCT_MODULE_NAME).SceneDelegate
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
