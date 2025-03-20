@@ -19,13 +19,13 @@ git:
   url: https://github.com/memextech/ios-template
 hero_image: https://raw.githubusercontent.com/memextech/ios-template/main/assets/hero_image.png
 icon: DeviceMobile
-is_published: false
+is_published: true
 pills:
 - icon: DeviceMobile
   label: Create iOS App
   prompt: Help me create a simple iOS app
 project_id: oXdhpTezLny4SMMEBTtV
-published_at: null
+published_at: 2025-03-20 18:51:19.270000
 requirements:
 - description: Xcode 14 or later
   type: software
@@ -50,4 +50,4 @@ tools:
   role: Programming Language
   type: language
   version: 5+
-updated_at: 2025-03-20 18:50:59.256000
+updated_at: 2025-03-20 18:51:19.270000
