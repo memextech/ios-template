@@ -8,6 +8,9 @@ SimpleIOSApp is a basic iOS counter application built using a programmatic UI ap
 SimpleIOSApp/
 ├── .git/                  # Git repository
 ├── .gitignore             # Git ignore file
+├── .memex/                # Memex universe configuration directory
+│   ├── config.yaml        # Project metadata for Memex
+│   └── rules.md           # Project documentation and guidelines
 ├── SimpleIOSApp/          # Source code directory
 │   ├── AppDelegate.swift  # Application delegate
 │   ├── Info.plist         # App configuration
@@ -17,6 +20,9 @@ SimpleIOSApp/
 ├── SimpleIOSApp.xcodeproj/ # Xcode project (generated)
 └── project.yml            # XcodeGen configuration
 ```
+
+## Memex Universe
+The `.memex` directory is used by the Memex universe, a template system for project management. The `config.yaml` file stores metadata about the project, while `rules.md` (this file) provides instructions and documentation for working with this project. These files are used by the Memex agent to guide development and iteration on the project.
 
 ## Prerequisites
 - macOS (required for Xcode)
